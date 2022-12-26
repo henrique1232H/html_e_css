@@ -1,0 +1,21 @@
+width: é usado quando queremos definir a largura de alguma coisa, como uma <div>
+height: é usado para definir a altura de alguma coisa
+padding: é usado para criar espaço ao redor do conteúdo de um elemento, dentro de qualquer borda definida.
+
+font-size: serve para dizer o tamanho de um texto ou palavra
+
+text-transform: dependendo do ue você coloca deixa um texto em maiusculo ou minusculo. Colocando uppercase para aumentar ou lowercase para diminuir.
+text-transform: uppercase;
+
+text-decoration: usa em <a> para tirar o sublinhado.
+text-decoration: none;
+
+font-family: escolhe uma fonte para o texto.
+
+justify-content: define como o navegador distribui o espaço entre e ao redor dos itens de conteúdo ao longo do eixo principal de um contêiner flexível e do eixo embutido de um contêiner de grade.
+
+background-size: A propriedade CSS define o tamanho da imagem de fundo do elemento. A imagem pode ser deixada em seu tamanho natural, esticada ou restringida para caber no espaço disponível
+
+background-position: define a posição inicial para cada imagem de fundo. A posição é relativa à camada de posição definida por .background-position
+
+

@@ -1,0 +1,6 @@
+Heading
+
+As tags de heading são as tags mais importantesdo seu cabeçalho, buscadores como google irão escanear seu documento e seu heading para entender sobre o conteudo.
+É importante usar da maneira certa para não ter uma sêmantica errada no nosso site. 
+Ao todos existem seis h6, Cada um diminuindo quando aumenta os números.
+Uma coisa importante de ser entender no HTML é a sêmantica. Um bom site deve ter uma boa sêmantica ser lido melhor, algumas coisas do HTML podem não ser visuais como um leitor de tela para um deficiente visual

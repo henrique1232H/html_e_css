@@ -1,0 +1,26 @@
+No HTML podemos criar tabelas:
+
+<table> = criamos a tabela
+    <caption> </caption> = aqui fica a descrição da tabela
+    <thead> = aqui é o cabeçalho da tabela
+        <tr> = aqui é a linha 
+            <td></td> ou <th> </th> = aqui fica a coluna da tabela e o titulo
+        
+        <tr>
+    </thead>
+
+    <tbody> = aqui fica o corpo da tabela
+        <tr>
+           <td> </td> ou <th> </th> 
+        </tr>
+    </tbody>
+
+    <tfoot> = o rodapé da tabela
+        <tr>
+            <th>
+        </tr>
+    </tfoot>
+</table>
+
+Para fazer ocupar mais de uma coluna você deve utilizar colspan="" e indicar quantas colunas voce quer utilizar da esquerda pra direita
+Para fazer ele ocupar de cima pra baixo é o rowspan=""

@@ -1,0 +1,20 @@
+p:nth-child(even)/* Pares */ {
+    background: rebeccapurple;
+
+}
+
+p:nth-child(odd) /* Impares */ {
+    background: darkcyan;
+
+}
+
+p:nth-child(3n) /* Vai pegar os elementos */{
+    background:  yellow;
+
+}
+
+p:nth-child(3n+10) {
+    background:  red;
+
+}
+

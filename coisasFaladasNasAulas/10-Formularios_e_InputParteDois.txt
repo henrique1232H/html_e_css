@@ -1,0 +1,38 @@
+Diferenças de disabled e readonly
+
+Disabled deixa o input desativado não deixando o usuario mexer.
+readonly quando presente, especifica que um campo de entrada é somente leitura.
+
+placeholder = serve para colocar um texto dentro de um input. Não conta como um texto de fato.
+
+value = serve para colocar um valor ao input, geralmente não precisa ser utilizado
+
+Tipos de button
+<button type="submit"> </button = Enviar o formulario
+<button type="reset"> </button> = vai resetar a pagina
+
+Tipos de Input
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+

@@ -1,0 +1,48 @@
+
+
+.heading {
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover {
+    background: red;
+    
+}
+
+a {
+    color: darkorange;
+}
+
+a:link {
+    color: deeppink;
+}
+
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: none;
+    background: darkblue;
+    transition: 0.2s;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    background: darkslategray;
+    color: white;
+}
+
+input:checked + p {
+   background: red;
+}
+
+.pai .lista li:first-child{
+    background: red;
+}
+
+input:required {
+    background: red;
+}

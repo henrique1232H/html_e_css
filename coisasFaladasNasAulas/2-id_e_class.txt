@@ -1,0 +1,6 @@
+ids são identificadores de elementos,mas n pode existir um mesmo elemento com mesmo elemento
+
+classes tambem são identificadores de elementos,só que diferente do id as classes podem se repetir
+
+quando for usar o css, se quiser estilizar use classes pois fica mais facil de mudar no futuro, id são mais dificil por estar numa hierarquia maior
+<b> </b> = deixa o texto em negrito

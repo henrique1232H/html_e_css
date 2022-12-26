@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title> tags HTML</title>
+
+        <style>
+
+        h1 {
+            background: red;
+        }
+
+
+        .img-in-text {
+            width: 50px;
+            height: 44px;
+        }
+
+        .vermelho {
+            font-size: 24px;
+            color: red;
+        }
+        </style>
+    </head>
+    <body>
+
+        <h1>cabecalho</h1>
+
+        <ol>
+            <li>teste2</li>
+            <li>teste</li>
+                <ul>
+                    <li>tudo bem</li>
+                    <li>ola</li>
+                </ul>
+        </ol>
+        
+        <p><b>Lorem</b> <strong style="color: red; background: black;">ipsum dolor</strong> sit amet consectetur adipisicing elit. 
+           <i>sanduiche</i> <em>amo comer</em> 
+           
+           
+           <a  href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a" target="_blank">teste</a>
+           
+           <a  href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a" target="_blank"><img class="img-in-text" src="https://seeklogo.com/images/M/mdn-logo-6DB9B0093F-seeklogo.com.png" alt="Logo da MDN"></a>
+           
+
+           <del>vermelho</del> <ins>azul</ins> <s>libero</s> <u>quaerat</u> ut doloribus aliquam itaque, 
+           <small>mollitia, ipsam nobis,</small> 2<sup>2</sup> H<sub>2</sub>0 nesciunt ullam tenetur ducimus rerum reprehenderit!
+            Ullam nobis dicta reiciendis!</p>
+
+            <hr>
+
+            <p><span class="vermelho">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit.<br> 
+                <q cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/q">indica que o texto dentro da tag é uma pequena citação. Este elemento destina-se a citações curtas que não têm marcações de parágrafo; 
+                    para citações maiores use o elemento </q> <code>console.log("hello")</code>delectus libero quaerat ut doloribus aliquam itaque, 
+                exercitationem mollitia, ipsam nobis, nesciunt ullam tenetur ducimus rerum reprehenderit!
+                 Ullam nobis dicta reiciendis!</p>
+
+
+                 <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/q">Aqui tem um bloco de citação</blockquote>
+
+                 <div class="vermelho">
+
+                    eu sou um bloco
+                 </div>
+
+                 <pre>
+                    <code>
+     function botao() {
+        const InputButton = document.querySelector("#button")
+
+        InputButton.addEventListener("click", clicar = () => {
+            console.log("hello")
+        })
+
+         }
+     botao()
+
+                    </code>
+                 </pre>
+
+                 <nav>
+                    <ul>
+                        <li><a href="#">Pagina Inicial</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                 </nav>
+    </body>
+</html>

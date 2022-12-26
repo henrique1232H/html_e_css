@@ -1,0 +1,18 @@
+Border-Radius e box-shadow
+
+border-radius serve para arredondar bordas de elementos
+
+box-shadow serve para colocar uma sombra em uma tag.
+no box-shadow ele vai receber quatros coisas
+
+box-shadow: 10px 0 0 0 blue
+
+o primeiro é para mandar para direita, ou para a esquerda colocando um número negativo
+
+o segundo é para mandar para cima, ou colocando o número negativo para baixo.
+
+o terceiro é um efeito de glow na tag;
+
+o quarto é o espalhamento da sombra.
+
+também pode ser colocado um valor chamado inset que faz a sombra venha para dentro do elemento

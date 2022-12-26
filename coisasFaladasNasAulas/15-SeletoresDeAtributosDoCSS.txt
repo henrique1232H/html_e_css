@@ -1,0 +1,9 @@
+[attr~=value] = Representa um elemento com um atributo de nome attr, o qual value é uma lista de palavras separadas por espaços, e uma dessas é exatamente value.
+
+[attr|=value] = Representa um elemento com um atributo de nome attr o qual o valor pode ser exatamente value ou pode começar com value imediatamente seguido por hífen (-)
+
+[attr^=value] = Se o valor já começa com o um nome ou letra chamado, ele já aceito.
+
+[attr$=value] = se o valor final termina com o que foi chamado, já aceito.
+
+[attr*=value] = se contem o que foi chamado já é aceito.

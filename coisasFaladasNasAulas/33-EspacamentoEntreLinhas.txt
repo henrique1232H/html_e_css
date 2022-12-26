@@ -1,0 +1,9 @@
+Espacamento entre linhas
+
+gap = é a distância que tem da colunas e das linhas, ele é um jeito mais simples do que escrever as funções abaixo, dizendo todas de uma vez
+
+row-gap: você fala especificamente do gap da linha
+column-gap: você fala especificamente do gap da coluna.
+
+
+cal() = serve para você calcular coisas pelo css

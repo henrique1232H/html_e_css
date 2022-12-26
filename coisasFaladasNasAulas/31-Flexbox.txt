@@ -1,0 +1,65 @@
+Flexbox é uma forma mais atual de se utilizar o css para mudar elementos, sendo mais facil e dinamico que outras formas como position ou float.
+
+para comecar a utilizar o flex, se coloca um display: flex.
+
+flex-direction: ele indica a direção do eixo principal do flex.
+
+flex-direction: row; //vai colocar tudo na horizontal.
+flex-direction: row-reverse; // vai colocar a ordem dos elementos ao contrario.
+flex-direction: column; //vai colocar tudo no vertical.
+flex-direction: column-reverse; // vai colocar dos elementos ao contrarios da coluna.
+
+justify-content: define como o navegador distribui o espaço entre e ao redor dos itens de conteúdo ao longo do eixo principal de um contêiner flexível e o eixo embutido de um contêiner de grade.
+
+justify-content: start; //deixar o elemento no começo
+justify-content: center; // vai deixar o elemento no centro
+justify-content: end; // vai deixar o elemento no final
+justify-content: space-around; //vai colocar um espaço em volta do elemento. Mas não sendo um espaço igual para todos os elementos
+justify-content: space-between; // vai dar um espaço entre os elemento e esse espaço vai ser igual para todos os elementos contando as bordas.
+justify-content: space-evenly; // vai dar um espaço igual para todos
+
+gap: = vai colocar um espaçamento entre cada um dos elementos, porêm não no container
+
+align-items: = vai alinhar elementos
+
+align-items: flex-start; // vai colocar todos os elementos para cima.
+align-items: center; // vai alinhar no meio.
+align-items: end; // vai alinhar no final.
+align-items: baseline; // vai alinhar atraves da baseline de todas as linhas.
+align-items: strech; // o que vem por padrao
+
+align-content: = ele pega o conteudo e vai alinhar;
+
+align-content: center // vai alinhar o conteudo ao centro
+align-content: flex-start;
+align-content: flex-end;
+flex-wrap: = quando se tem muitos elementos dentro de uma tag, pode acabar tendo a quebra do conteudo e saindo da tag. Quando isso acontece se utiliza o flex-wrap para resolver.
+
+align-self: // ele vai alinhar um único elemento.
+
+flex-wrap: wrap; // caso não tenha mais espaço, ele quebra a linha e poem o elemento em outra linha
+
+flex-flow: // é o atalho do flex-wrap
+
+flex-grow: // ele vai acomodar os elementos com o restante de espaço que sobrou.
+
+flex-grow: 1;
+flex-grow: 2;
+flex-grow: 3;
+
+flex-basis: // ele vai reservar um espaço para os elementos, e então dividir para todos
+
+flex-shrink: // ele vai permitir ou não que o elementos diminuia sempre que puder.
+
+flex-shrink: 0;// ele não vai permitir que o elemento diminuia
+flex-shrink: 1;// vai permitir que o elemento diminuia
+
+flex: // é o atalho para todos os os flex.
+
+flex: 0 0 0;
+
+O primeiro é o flex-grow.
+O segundo é o flex-shrink.
+O terceiro é o flex-basis
+
+order: // ele vai ordenar o elementos de o jeito diferente

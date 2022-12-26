@@ -1,0 +1,29 @@
+Lista HTML não ordenada
+
+Uma lista não ordenada começa com a <ul> tag. Cada item da lista começa com a <li>tag.
+                            Exemplo
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Lista HTML ordenada
+
+Uma lista ordenada começa com a <ol>tag. Cada item da lista começa com a <li>tag.
+
+Os itens da lista serão marcados com números por padrão:
+                            Exemplo
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+Listas de descrição HTML
+
+HTML também suporta listas de descrição.
+
+Uma lista de descrição é uma lista de termos, com uma descrição de cada termo.
+
+A <dl>tag define a lista de descrição, a <dt>tag define o termo (nome) e a <dd> tag descreve cada termo:

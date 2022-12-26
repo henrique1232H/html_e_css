@@ -1,0 +1,7 @@
+Grid Template Area
+
+Existe mais uma forma de arrumar uma grid, chamada de grid template area que envolve basicamente em dar nomes para areas, e colocar onde quiser
+
+grid-area: para nomear div pelo css
+
+grid-template-area: ele vai definir onde os elementos vão ficar

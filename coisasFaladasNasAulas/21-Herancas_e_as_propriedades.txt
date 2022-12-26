@@ -1,0 +1,24 @@
+Heranças e as propriedades que são passadas de pai para filhos
+
+Quando se utiliza o HTMl e CSS, tudo que está dentro de um elemento pai passa para os outros elementos filhos. Exemplo:
+
+no HTML:
+
+    <div id="texto">
+    <h1>Teste</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint deserunt dolorem delectus voluptas deleniti quibusdam ipsum eos repellendus officiis harum aliquam sunt saepe, et hic rem corrupti quidem itaque dicta!</p>
+    </div>
+
+no CSS:
+
+    #texto {
+    font-family: sans-serif;
+    color: red;
+    font-size: 70px;
+}
+
+Tudo que foi passado na tag texto foi pra todos os elementos dentro da tag. Existem dois métodos para definir se você quer ou não que seja passado a propriedades para todos os elementos em uma tag:
+
+font-size: initial; = não aceita a herança do pai.
+
+font-size: inherit; = aceita a herança do pai

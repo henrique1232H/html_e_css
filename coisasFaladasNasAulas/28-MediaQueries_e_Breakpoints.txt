@@ -1,0 +1,9 @@
+Media Queries e Breakpoints
+
+Media queries é uma forma de fazer seu site ser mais responsivo em telas menores, se ajustando perante a tela
+breakpoints seria o tamanho da tela de dispositivos
+
+
+Operadore Lógicos
+
+and = é usada para combinar múltiplas media features, bem como combinar media features com media type

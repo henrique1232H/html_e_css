@@ -1,0 +1,68 @@
+Propriedade especificas do Box-Model
+
+Display
+
+display: block; = quando está em display block ele vai aceitar os parâmetros propostos para ele. Exemplo:
+
+.texto {
+    display: block;
+    background: red;
+    width: 50%;
+}
+
+display: inline = quando se é estabelecido que o display é em inline, o elementos dentro da tag não irão receber parâmetros, mesmo que você passe para eles.
+
+Overflow
+
+Quando elementos "saem" da tag por ter um tamanho maior do que o estabelecido para a tag, utiliza o metodo overflow, nele você pode decidir o que vai acontecer com o que "sair" da tag.
+
+overflow: hidden; = vai esconder o que saiu da tag.
+
+overflow: scroll; = vai adicionar uma barra de navegação para o usuario poder ver o elemento completo
+
+overflow: auto; = o programa vai decidir o que vai fazer caso o elemento saida da tag, adicionando ou não a barra de navegação
+
+overflow também pode ser adicionado para eixo x e y utilizando os comandos:
+
+overflow-x ou overflow-y
+
+max-width 
+
+ele define qual é o máximo que a largura da sua tag pode atingir.Ideal para um site responsivo Exemplo:
+
+.texto {
+    width: 100%; //agora a largura maxima da tag será da tela inteira
+    max-width: 600px; // definido o tamanho maximo da largura da tag
+}
+
+min-width
+
+define qual é o menor largura a tag vai ter.Ideal para o site responsivo e ele estiver em uma aba pequena. Exemplo:
+
+.texto {
+    width: 100%; //agora a largura maxima da tag será da tela inteira
+    max-width: 600px; // definido o tamanho maximo da largura da tag
+    min-width: 100px; // definido o tamanho minimo da largura da tag
+}
+
+max-height
+
+define a maior altura que sua tag vai atingir. Exemplo:
+
+.texto {
+    height: 100%;
+    max-height: 500px;     
+    width: 100% ;
+}
+
+min-height 
+
+define a menor altura da sua tag vai atingir quando em uma aba pequena. Igual o exemplo da min-width.
+
+border-box
+
+box-sizing é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos.
+
+box-sizing: content-box; = As propriedades width (largura) e height (altura) são medidas incluindo só o conteúdo, mas não o padding, border ou margin.
+
+box-sizing: border-box; = As propriedades de largura (width) e de altura (height) incluem o tamanho padding size e a propriedade border, mas não incluem a propriedade margin.

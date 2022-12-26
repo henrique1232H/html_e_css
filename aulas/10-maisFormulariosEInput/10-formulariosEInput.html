@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios e Input</title>
+
+        <style>
+            
+            body {
+                font-family: sans-serif;
+            }
+
+            label{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+
+        <form action="#" method="get" autocomplete="off" target="_blank">
+           <p>Meu formulario</p>
+
+           <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="seu nome" required> *
+            
+        </p>
+
+        <p>
+            
+            <label for="dev" class="labelPergunta">Sou um dev:</label>
+            <input type="checkbox" id="dev" name="dev1" value="sim">
+            <br>
+            <label for="dev2" class="labelPergunta">Sou um dev:</label>
+            <input type="checkbox" id="dev2" name="dev2" value="sim">
+            <br>
+            <label for="dev3" class="labelPergunta" >Sou um dev:</label>
+            <input type="checkbox" id="dev3" name="dev3" value="sim">
+            
+            
+        </p>
+
+        <p>
+            Gênero: <br>
+            <label for="feminino" class="labelPergunta">Feminino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <br>
+            <label for="masculino" class="labelPergunta">masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <br>
+            <label for="PrefiroNaoDizer" class="labelPergunta" >Prefiro não dizer</label>
+            <input type="radio" id="PrefiroNaoDizer" name="genero" value="PrefiroNaoDizer">
+            
+            
+        </p>
+
+        <p>
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" value="2020-04-20"> 
+            
+        </p>
+
+        <p>
+            <label for="datetime-local">Data e hora:</label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local" value="2020-04-20T16:54"> 
+            
+        </p>
+
+        <p>
+
+            <label for="time">hora:</label>
+            <input type="time" id="time" name="time" value="16:54"> 
+            
+        </p>
+
+        <p>
+
+            <label for="cor">Cor preferida:</label>
+            <input type="color" id="cor" name="cor" value="#003d66"> 
+            
+        </p>
+
+        <p>
+
+            <label for="email">Seu email:</label>
+            <input type="email" id="email" name="email" placeholder="Ex:email@gmail.com" required >* 
+            
+        </p>
+
+        <p>
+
+            <label for="file">Sua foto:</label>
+            <input type="file" id="file" name="file" accept=".png, .mp3, .jpg" multiple> 
+            
+        </p>
+
+        <p>
+
+            <label for="number">Digite um número:</label>
+            <input type="number" id="number" name="number"  min="0", max="50" step="5">
+            
+        </p>
+
+        <p>
+            <button type="reset">Resetar</button>
+            <button type="submit">Enviar</button>
+        </p>
+        </form>
+    </body>
+</html>

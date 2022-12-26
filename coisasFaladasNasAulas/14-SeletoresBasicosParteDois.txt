@@ -1,0 +1,25 @@
+Seletores Básicos parte 2
+
+Seletores de irmãos adjacentes(+) = ele serve para puxar dois elementos que vem logo após o outro. Exemplo:
+
+div h1+p {
+    color: red;
+}
+
+Seletor de filhos (>) = seleciona nós que são filhos diretos do elemento especificado anteriormente. Exemplo:
+
+ul > li {
+    color: yellow
+}
+
+Seletor de irmãos (~) = seleciona os nós que seguem (não necessariamente imediatamente) o elemento especificado anteriormente, se ambos os elementos compartilham o mesmo pai. Exemplo:
+
+div h1~p {
+    color: red;
+}
+
+Seletores por atributo ( [] ) = Este seletor básico ira escolher nós baseados no valor de um de seus atributos, ou até mesmo pelo próprio atributo. Exemplo:
+
+[nomeDoAtributo] {
+    color: red;
+}

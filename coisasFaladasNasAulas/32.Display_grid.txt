@@ -1,0 +1,52 @@
+Display Grid
+
+Display grid é uma forma de você conseguir colocar varios elementos em grid, muito parecido como uma tabela ou como uma grade, uma forma melhor que a display flex.
+
+para configurar uma grid melhor, você precisa colocar colunas e linhas
+
+grid-template-columns: //Ele vai definir quantas colunas você quer que tenha
+
+grid-template-rows:    //Ele vai definir quantas linhas vai ter
+
+
+Na grid é introduzido uma nova unidade para medir: a fr
+
+fr serve para criar dimensões flexíveis na grid: 1fr  
+
+existe uma função chamado de repeat() para quando você precisa de muitas colunas e não precisar escrever todas
+
+repeat(0, 0)
+
+O primeiro é para colocar quantas vezes você quer que seja repetido
+O segundo para definir o tamanho das colunas.
+
+Na grid não precisamos usar media queries se quisermos, ele mesmo já faz isso.
+
+repeat(auto-fill, minmax(px fr))
+
+auto-fill: ele automatiza a grid para a tela.
+minmax(): ele recebe o valor minimo e o maximo para a coluna.
+
+igual como tem na table,podemos fazer com o que um elemento pegue o espaço de outro elemento.
+
+grid-column-start: //vai colocar onde você quer a coluna se inicie.
+grid-column-end: //vai colocar onde você quer que a coluna acabe.
+
+grid-row-start: //vai colocar onde você quer a linha se inicie.
+grid-row-end: //vai colocar onde você quer que a linha acabe
+
+pode ser utilizado de uma forma mais simples.
+
+grid-row: span 2 // significa que ele vai quebrar duas linhas.
+grid-column: // mesma coisa do grid-row, porem com colunas
+
+tem um atalho pra essas grid que inicia e termina
+
+grid-area: 0 / 0 / 0 / 0
+
+O primeiro é o grid-row-start
+O segundo é o grid-column-start
+O terceiro é o grid-row-end
+O quarto é o grid-column-end
+
+Usa as barras nesse caso como forma de colocar eles certo

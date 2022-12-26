@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+[meu-atributo~="valor2"] {
+    color: red;
+}
+
+[checked] {
+    height: 50px;
+    width: 50px;
+}

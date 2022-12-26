@@ -1,0 +1,37 @@
+arquivo HTML é o arquivo de texto que o navegador utiliza para renderizar as paginas
+
+Para criar um arquivo HTML basta você criar um arquivo e colocar .html:
+nomeDoArquivo.html
+
+HTML é case insensitive que quer dizer que não importa estar em minúsculo ou maiuscúlo
+
+                                Estrutura do HTML
+
+<!doctype html>
+<html lang="pt-BR"> = A linguagem da página
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu HTML</title> = O titulo do documento
+
+    
+        <style>
+                    = o CSS fica aqui
+        </style>
+    </head>
+    <body>
+    
+        
+        <script>
+                    = O JavaScript fica aqui
+        </script>
+    </body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+<br> = quebra a linha
+
+<meta name="viewport" content="width=device-width, initia-scale="1.0">
+
+Esse meta foi criado pela Apple para ajudar aos celulares quando forem usar um navegador, ajudando a ver as coisas melhores pelo celular.

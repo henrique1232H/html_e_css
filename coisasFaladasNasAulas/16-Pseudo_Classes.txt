@@ -1,0 +1,104 @@
+*Esse documento traz os conhecimentos da aula 16, 17 e 18 sobre pseudo-classes.
+
+Pseudo-Classes
+
+:hover = Quando o mouse passa por cima, pode acontecer alguma coisa. Exemplo:
+
+tag:hover {
+    color: red;
+}
+
+:link = Para decorar um link que voce nao tenha visitado. Exemplo:
+
+a:link {
+    color: deeppink;
+}
+
+:visited = para decorar um link que já tenha sido visitado. Exemplo:
+
+a:visited {
+    color: purple;
+}
+
+:active = quando clicado, pode acontecer alguma coisa. Exemplo:
+
+a:active {
+    text-decoration: none;
+}
+
+:focus = muito utilizado em inputs, é se utilizado para dar foco em alguma coisa. Exemplo:
+
+input:focus {
+    color: red;
+}
+
+:disabled = quando um input esta desativado, voce utiliza esse para poder decorar. Exemplo:
+
+input: disabled {
+  background: rebeccapurple;
+}
+
+:enabled = quando o input esta ativado, voce pode utilizar para poder decorar. Exemplo:
+
+input: enabled {
+    color: white;
+}
+
+:checked = verifica se o input foi checado, e se sim você pode decorar. Exemplo:
+
+input:checked + tag {
+    color: red;
+}
+
+:first-child = pega o primeiro filho de uma tag. Exemplo:
+
+no html:
+
+ <div class="pai">
+
+        <ul class="lista">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        </ul>        
+
+       </div>
+
+no CSS:
+
+.pai .lista li:first-child{
+    background: red;
+}
+
+:last-child = Pega o ultimo filho de uma tag.
+
+:required = se usa pra decorar um input que tem um required.
+
+:not() = é uma notação funcional que recebe um seletor simples X como argumento. Ela seleciona um elemento que não é representado por seu argumento. X não pode conter outro seletor de negação.
+
+:nth-child() = seleciona elementos com base em suas posições em um grupo de elementos irmãos. Exemplo:
+
+no html:
+
+ <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li> //Terceiro Índice
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+
+ </ul>
+
+no CSS:
+
+    ul li:nth-child(3) {
+    background: rebeccapurple;
+}
+
+nth-child(odd) = vai pegar todos os elementos impares.
+
+nth-child(even) = vai pegar todos os elementos pares.
+
+nth-child(5n) = vai pegar todos os elementos de 5 em 5, pode ser usado para outros números também.

@@ -1,0 +1,10 @@
+Seletores Básicos de Css - Parte Um
+
+* = Chamado de all, significa que ele vai tudo pegar todos os elementos da página.
+
+Seletor por descendente = Você cria um caminho até chegar no seletor onde você quer.Exemplo:
+
+nav ul li a {
+    color: red
+} // Você vai criando o caminho
+

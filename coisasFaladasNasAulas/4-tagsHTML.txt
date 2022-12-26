@@ -1,0 +1,57 @@
+                             Diferença do <b> e <strong>
+
+O elemento HTML <strong> dá ao texto uma forte importância, e é tipicamente mostrado em negrito.
+strong é um estado lógico, e bold é um estado físico. Estados lógicos separam apresentação do conteúdo, e ao fazer isso permitem que ele seja expresso de várias maneiras diferentes.
+a tag b foi feita só para deixar o texto em negrito
+
+<i> </i> = deixa o texto em ítalico
+
+<em> </em> = da enfâse ao texto em ítalico
+
+<a> </a> = deixa você colocar um link,arquivos e etc no seu site usando o href="".
+
+<img> = coloca uma foto na sua pagina usando o src
+
+<del> </del> = vai riscar uma palavra por cima para falar que está errado,Um texto que uma parte foi deletada, e uma nova parte foi inserida.
+
+<ins> </ins> = vai sublinhar uma palavra e inserir um novo texto.
+
+<s> </s> = Marca um texto que não está correto.
+
+<u> </u> = representa algum texto não articulado e com estilo diferente do texto normal.
+
+<small> </small> = diminui um texto ou palavra.
+
+<sup> </sup> = vai elevar um número ou um texto.
+
+<sub> </sub> = vai abaixar um número ou um texto.
+
+<br> = quebra a linha
+
+<q> </q> = serve para fazer uma citação
+
+<code> </code> = serve para conseguir citar um código.
+
+
+
+Tudo isso pode ser usado dentro de um <p> </p>
+
+Agora coisas que não podem ser usadas dentro de um <p>:
+
+<blockquote> </blockquote> = vai criar um bloco de citação
+
+<hr> = cria uma linha
+
+<pre> </pre> serve para deixar a formatação certa do código
+
+                         Diferença de <span> e <div>
+
+<span> é um contêiner genérico em linha para conteúdo fraseado , que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo.Ele é usado em linha ao contrario da <div>
+
+<div>é um elemento de nível de bloco enquanto <span> é um elemento em linha.
+
+
+                        <ol> e <ul>
+
+O <ol> (ou Elemento HTML de lista ordenada) representa uma lista de itens ordenados.
+O <ul> representa uma lista de itens sem ordem rígida, isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são irrelevantes.

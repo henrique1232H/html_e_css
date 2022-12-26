@@ -1,0 +1,41 @@
+Propriedades para texto
+
+No CSS temos varias formas de tratar um texto, podendo mudar a fonte, o tamanho, a cor entre outros. Vamos mostrar alguns:
+
+background: mudar a cor do fundo.
+color: mudar a cor do texto.
+font-size: mudar o tamanho do texto.
+font-style: mudar o estilo do texto.
+font-weight: serve para deixar o texto em negrito.
+letter-spacing: para colocar um espaçamento entre as letras.
+word-spacing: para colocar um espaçamento entre as palavras.
+line-height: serve para definir a altura da linha
+text-indent: muda a indentação do texto.
+text-shadow: colocar uma sombra no texto
+
+Também temos como mudar a direção do texto.
+
+direction: ltr // vai mudar da esquerda para a direita.
+direction: rtl // vai mudar da direita para a esquerda.
+
+Também temos como alinhar o texto.
+
+text-align: center // vai alinhar ao centro
+text-align: right // vai alinhar a direita
+text-align: left // vai alinhar a esquerda
+
+também temos como decorar o nosso texto.
+
+text-decoration: overline; // vai colocar uma linha acima do texto
+text-decoration: underline; // vai colocar uma linha em baixo do texto
+text-decoration: line-through; // vai colocar uma linha em cima do texto
+
+No text-decoration pode mandar dois ou mais argumentos de uma vez como:
+
+text-decoration: overline line-through.
+
+Também temos como transformar o nosso texto.
+
+text-transform: uppercase; //vai deixar o texto em maiusculo
+text-transform: lowercase; // vai deixar o texto em minusculo
+text-transform: capitalize; // vai deixar a primeira letra maiuscula em uma palavra

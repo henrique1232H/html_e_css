@@ -1,0 +1,31 @@
+Pseudo-Elements
+
+É uma palavra-chave adicionada a um seletor que permite que você estilize uma parte específica do elemento selecionado.
+
+::after = cria um pseudo-elemento que é o último filho do elemento selecionado. Exemplo:
+
+ul li::after {
+    content: "-"; //Geralmente junto se usa o content para melhorar
+}
+
+::before = cria um pseudo-elemento antes do primeiro elemento.
+
+::first-letter = Muito utilizado em paragrafo, Muda a primeira letra. Exemplo:
+
+p::first-letter {
+    font-size: 150px;
+    font-family: sans-serif;
+}
+
+::first-line = A primeira linha do paragrafo vai ser mudada. Exemplo:
+
+p::first-line {
+    background: red;
+}
+
+::selection = tudo que o usuario selecionar, vai ser mudada. Exemplo:
+
+p::selection {
+    background: black;
+    color: white;
+}

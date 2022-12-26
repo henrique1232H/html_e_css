@@ -1,0 +1,24 @@
+Especifidade é um calculo pelo computador para dizer qual é o mais importante.
+
+style   ID      Classes, atributos e pseudo-classes         Elementos e pseudo-elementos 
+
+dessa lista, o primeiro é o mais importante, até chegar em elementos e pseudo-elementos que são os menos importante.
+Escrever um css muito especifico pode causar um problema para você sobrescrever depois, então tente não ser tão especifico a todo momento.
+Unico jeito de quebrar é utilizando o !important, porém não deve ser utilizado de nenhuma forma, pois pode causar muitos problemas para o seu código.
+
+exemplo:
+
+#p {
+    background: red;
+} //A especificidade desse p é 1,0,0 pois ele é id e não tem classe e nem elementos
+
+.p {
+    background: yellow
+}  // A especificidade desse p é 0,1,0 pois ele é uma classe e não tem um id e nem elementos
+
+Metodos para saber caso os empatem:
+
+especificidade
+empate
+style
+!important ****

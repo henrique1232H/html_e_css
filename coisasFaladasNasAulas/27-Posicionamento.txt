@@ -1,0 +1,20 @@
+Posicionamento é a forma com que posicionamos elementos pelo css
+
+position: static; = ele é posicionado de acordo com o fluxo normal do documento. É a forma padrão de qualquer elemento.
+position: relative; = ele é posicionado de acordo com o fluxo normal do documento, mas em seguida ele se desloca com base nos valores colocados.
+position: absolute = O elemento é removido do fluxo normal de documentos e nenhum espaço é criado para o elemento no layout da página.
+position: fixed; = O elemento é removido do fluxo normal de documentos e nenhum espaço é criado para o elemento no layout da página. Ele ficara fixado em um local mesmo que a página role.
+position: sticky; = 
+
+
+    Funções do Posicionamento:
+
+top: = em relação ao topo da pagina, você muda a distância do topo.
+left = em relação a esquerda da pagina, você muda a distância da esquerda.
+right = em relação a direita da pagina, você muda a distância da direita.
+bottom = em relação a baixo da pagina, você a muda a distância do chão.
+
+
+z-index: = propriedade especifica a ordem da pilha de um elemento.
+
+Um elemento com ordem de pilha maior está sempre na frente de um elemento com ordem de pilha menor.

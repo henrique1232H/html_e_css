@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.pai {
+    width: 50rem;
+    height: 100vh;
+    background:  rgb(42, 214, 8);
+    overflow: hidden;
+}
+
+.pai > div {
+    width: 50%;
+    height: 50rem;
+    background: blue;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.color-one {
+    background: #ABC34578;
+}
+
+.color-two {
+    background: red;
+}
+
+p {
+    font-size: 2vmax;
+}

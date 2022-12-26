@@ -1,0 +1,43 @@
+date = serve para colocar uma data no input. Quando se coloca value você coloca:
+
+value="ano-mes-dia"
+
+datetime = é um input pra data mas que não é aceito em alguns navegadores, por isso se utiliza em vez dele o datetime-local
+
+datetime-local = também é um input pra dia, mas que tambem tem horas. Quando se coloca um value tambem precisa vir as horas. Então:
+
+value="ano-mes-diaThoras:minutos"
+
+time = para horas, quando se coloca um value:
+
+value="horas:minutos"
+
+color = vai colocar uma cor.
+
+email = pra colocar o e-mail
+
+file = pra colocar um arquivo, podendo ser qualquer um. Se você deseja um em especifico usa-se o accept. Exemplo:
+
+accept="tipoDoArquivo(.png, .mp3, .mp4)" ou pode se utilizar multiple para trazer varios arquivos
+
+multiple
+
+
+number = para colocar numero, pode colocar um min e o maximo de numero:
+
+min="0", max="50"
+
+
+password = para colocar senha
+
+range = deixam o usuário especificar um valor numérico que não deve ser inferior a um determinado valor, e não mais do que um valor máximo especificado. 
+
+search = uma barra de pesquisa
+
+url = para colocar uma url.
+
+select = para dar diversas opções.
+
+ <select id="select" name="select">
+                <option value="qualquer">Valor</option>
+ </select>

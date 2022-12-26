@@ -1,0 +1,26 @@
+Unidade de Medidas
+
+As unidades de medidas servem para você determinar uma width,height, um padding e por aí vai. Existem duas formas de medidas a
+
+Medidas absolutas:unidades de comprimento absoluto são fixas e um comprimento expresso em qualquer um deles aparecerá exatamente com esse tamanho. Exemplo de medidas absolutas são "px" que já foi usadas bastante.
+
+Medidas relativas: As unidades de comprimento relativo especificam um comprimento relativo a outra propriedade de comprimento. As unidades de comprimento relativo escalam melhor entre diferentes meios de renderização.
+
+Nas medidas relativas o mais utilizados são:
+
+em: faz o elemento se basear no mais proximo dele.
+
+rem: ele se baseia no root do sistema, ou seja no html
+
+vw: signfica 1% da largura(width) do viewport*.
+
+vh: signfica 1% da altura(height) do viewport*.
+
+%: relativo ao elemento parente.
+
+vmin: relativo a menor parte do viewport*.
+
+vmax: relativo a maior parte do viewport*.
+
+*viewport é toda a parte vísivel do site.
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios parte 2</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+
+            label {
+                cursor: pointer;
+            }
+
+            .labelPergunta {
+                cursor: pointer;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <form action="#" method="get" target="_blank" autocomplete="off" id="form">
+            <p>O meu formulário</p>
+            <p>
+                <label>
+                Nome:
+                <input type="text" id="nome" name="nome" placeholder="seu nome"> *
+                </label>
+            </p>
+
+            <p>
+                
+                <label for="dev" class="labelPergunta">Sou um dev:</label>
+                <input type="checkbox" id="dev" name="dev1" value="sim">
+                <br>
+                <label for="dev2" class="labelPergunta">Sou um dev:</label>
+                <input type="checkbox" id="dev2" name="dev2" value="sim">
+                <br>
+                <label for="dev3" class="labelPergunta" >Sou um dev:</label>
+                <input type="checkbox" id="dev3" name="dev3" value="sim">
+                
+                
+            </p>
+
+            <p>
+                Gênero: <br>
+                <label for="feminino" class="labelPergunta">Feminino</label>
+                <input type="radio" id="feminino" name="genero" value="feminino">
+                <br>
+                <label for="masculino" class="labelPergunta">masculino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <br>
+                <label for="PrefiroNaoDizer" class="labelPergunta" >Prefiro não dizer</label>
+                <input type="radio" id="PrefiroNaoDizer" name="genero" value="PrefiroNaoDizer">
+                
+                
+            </p>
+
+            <p>
+                <button type="submit" >Enviar</button>
+                <button type="reset">Resetar</button>
+            </p>
+
+        </form>
+            
+    </body>
+</html>

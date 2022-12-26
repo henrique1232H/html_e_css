@@ -1,0 +1,3 @@
+No html o css se ativa quando se utiliza a tag style, podendo ser colocada em qualquer lugar, na head ou na body.Tambem pode ser colocada dentro de uma tag por ser um atributo. Exemplo:
+
+<div style="background: red;" class="caixa"></div>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>id e class</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+
+         h1 {
+
+            background: red;
+         }
+
+
+         p {
+
+            background: blue;
+
+         }
+
+         #cabecalho-dois {
+
+            background: purple;
+
+         }
+         
+         .fundoVermelho {
+
+            background: red;
+         }
+        </style>
+    </head>
+    <body>
+
+        <h1 id="cabecalho-um" class="fundoVermelho borda-esquerda">
+
+            vai vir aqui
+        </h1>
+
+
+        <h1 id="cabecalho-dois" class="fundoVermelho">
+            vai vim aqui
+
+        </h1>
+
+        <p>hello <b>world!</b>.</p>
+
+
+        <script>
+
+            function mudarACor(){
+            
+
+            function cabecalhoUm() {
+
+            const ButtonColor2 = document.querySelector("#cabecalho-um");
+
+            ButtonColor2.addEventListener("click", changeCabecalhoUm = () => {
+                document.querySelector("#cabecalho-um").style.background = "orange";
+                document.querySelector("#cabecalho-um").innerHTML = "Obrigado";
+            })
+            }
+
+
+
+
+            let cabecalhoDois = () => {
+            const ButtonColor = document.querySelector("#cabecalho-dois");
+            
+
+            ButtonColor.addEventListener("click", changeCabecalhoDois = () => {
+                document.querySelector("#cabecalho-dois").style.background = "yellow";
+                document.querySelector('#cabecalho-dois').innerHTML = "Por tudo"
+                
+            })
+
+            
+        }
+
+        
+         cabecalhoDois()
+         cabecalhoUm()
+        }
+        mudarACor()
+        </script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+Cores HTML
+
+No HTML e no CSS pode ser utilizados varios tipos de cores, podendo ser chamada de por formas diferentes, essas formas são:
+
+- Pelo nome da cor.
+
+    background: red;
+
+- Por rgb.
+    
+    background: rgba(75 , 0, 130) //Indigo
+                        
+ no rgb:
+
+- O primeiro é vermelho;
+- O segundo é verde;
+- O terceiro é azul;
+- Vai até 255, que seria o branco
+- 0 seria o Preto.
+- tambem existe o rgba que o ultimo é para a opacidade
+
+- Pode ser chamada pela cor hexadecimal.
+
+    background: #6A5ACD; //SlateBlue
+
+Pega se de exemplo:
+
+    background: #FFFFFF; //Branco
+
+- Os dois primeiros é vermelho;
+- Os dois segundos é verde;
+- Os dois terceiros é azul;
+
+- Pelo hsl.
+
+    background: hsl(0 , 100%, 50%)  //Vermelho
+
+- O primeiro seria a hue ou matiz que é o grau de rodas das cores.
+- O segundo é saturation ou saturação de cores.
+- O terceiro é lightness ou a leveza da cor.
+- Também existe o hsla que o ultimo é para a opacidade

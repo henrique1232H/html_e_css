@@ -1,0 +1,13 @@
+Um formulário HTML é usado para coletar a entrada do usuário. A entrada do usuário é mais frequentemente enviada a um servidor para processamento.
+
+<form action=""= serve para especificar para qual lugar o formulario está indo. method="" = O method atributo especifica como enviar dados de formulário (os dados de formulário são enviados para a página especificada no action atributo). target=""> = é feito para criar um formulario. Form também é um bloco
+
+    <p> </p>
+            
+</form>
+
+Os elementos <fieldset> e <legend>
+
+O elemento <fieldset> é uma maneira conveniente de criar grupos de widgets que compartilham o mesmo propósito. Também é utilizado para agrupar os campos de um formulario. Um elemento <fieldset> pode ser rotulado com um elemento <legend>. O elemento <legend> descreve formalmente a finalidade do elemento <fieldset> ao qual está incluído.
+
+ É estritamente proíbido aninhar um formulário dentro de outro formulário. Isto pode fazer com que os formulários se comportem de maneira imprevisível baseada no navegador que está sendo utilizado
